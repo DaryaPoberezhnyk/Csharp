@@ -35,7 +35,15 @@ namespace wpfexam.Views.admin
             this.Close();
 
         }
-    }
-   
+        private void Image1_3_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
 
+            // Відкриття нового вікна StudentsInfo.xaml
+            ManageTeachers_CRUD_ manageTeachers_CRUD = new ManageTeachers_CRUD_();
+            manageTeachers_CRUD.Show();
+            // Закриття поточного вікна
+            this.Close();
+
+        }
+    }
 }
