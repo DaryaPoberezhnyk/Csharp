@@ -18,11 +18,24 @@ namespace wpfexam.Views.admin
     /// <summary>
     /// Interaction logic for AdminDashboard.xaml
     /// </summary>
-    public partial class AdminDashboard : Page
+    public partial class AdminDashboard : Window
     {
         public AdminDashboard()
         {
             InitializeComponent();
         }
+        private void Border_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+
+            // Відкриття нового вікна StudentsInfo
+            ManageStudents_CRUD_ manageStudents = new ManageStudents_CRUD_();
+            manageStudents.Show();
+
+            // Закриття поточного вікна
+            this.Close();
+
+        }
     }
+   
+
 }

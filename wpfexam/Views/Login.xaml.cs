@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using wpfexam.Views.admin;
 
 namespace wpfexam.Views
 {
@@ -56,7 +57,17 @@ namespace wpfexam.Views
                 // Закрити поточне вікно Login.xaml
                 this.Close();
             }
-            
+
+            if (username == "Admin" && password == "Admin")
+            {
+                // Відкрити нове вікно StudentsHome.xaml
+                AdminDashboard adminDashboard = new AdminDashboard();
+                adminDashboard.Show();
+
+                // Закрити поточне вікно Login.xaml
+                this.Close();
+            }
+
         }
     }
 }
