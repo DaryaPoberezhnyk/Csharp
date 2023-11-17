@@ -18,11 +18,31 @@ namespace wpfexam.Views
     /// <summary>
     /// Interaction logic for StudentsInfo.xaml
     /// </summary>
-    public partial class StudentsInfo : Page
+    public partial class StudentsInfo : Window
     {
         public StudentsInfo()
         {
             InitializeComponent();
+
+        }
+        private void Image5_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+
+            // Відкриття нового вікна StudentsInfo.xaml
+            StudentsHome studentsHome = new StudentsHome();
+            studentsHome.Show();
+
+            // Закриття поточного вікна
+            this.Close();
+        }
+        private void Image12_MouseLeftButtonDown(object sender, RoutedEventArgs e)
+        {
+            // Створення і відкриття нового вікна StudentsInfo.xaml
+            StudentsProfile studentsProfile = new StudentsProfile();
+            studentsProfile.Show();
+
+            // Закриття поточного вікна
+            this.Close();
         }
     }
 }

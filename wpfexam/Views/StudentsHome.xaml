@@ -40,11 +40,7 @@
                 <DropShadowEffect BlurRadius="20" ShadowDepth="0" Color="#C0D7F9"/>
             </Border.Effect>
         </Border>
-        <Border Background="#D8E1EE" CornerRadius="20" Width="457" HorizontalAlignment="Left" Margin="904,178,0,72">
-            <Border.Effect>
-                <DropShadowEffect BlurRadius="20" ShadowDepth="0" Color="#C0D7F9"/>
-            </Border.Effect>
-        </Border>
+
         <Ellipse Width="63" Height="63" Margin="152,16,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
             <Ellipse.Fill>
                 <ImageBrush ImageSource="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\1!.png"/>
@@ -114,7 +110,11 @@
             </TextBlock.Effect>
         </TextBlock>
 
-
+        <Border Background="#D8E1EE" CornerRadius="20" Width="457" HorizontalAlignment="Left" Margin="904,178,0,72">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="20" ShadowDepth="0" Color="#C0D7F9"/>
+            </Border.Effect>
+        </Border>
         <TextBlock Text="Оцінки:" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" FontFamily="Montserrat" FontWeight="SemiBold"  Foreground="#1B3F74" Margin="937,202,0,0"/>
         <Line X1="0" Y1="0" X2="400" Y2="0" Stroke="#D8E1EE" Opacity="0.4" StrokeThickness="2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="173,544,0,0" Width="316"/>
 
@@ -133,17 +133,24 @@
         <TextBlock Text="+1" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" FontFamily="Montserrat" FontWeight="SemiBold"  Foreground="#1B3F74" Margin="1299,492,0,0"/>
         <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\!4.png" Margin="1321,495,34,290" RenderTransformOrigin="0.1,0.598" />
         <Line X1="0" Y1="0" X2="400" Y2="0" Stroke="Black" Opacity="0.02" StrokeThickness="2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="931,404,0,0" Width="405"/>
+        <Line X1="0" Y1="0" X2="400" Y2="0" Stroke="Black" Opacity="0.2" StrokeThickness="2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="931,555,0,0" Width="405"/>
+        <TextBlock Text="ХХ.ХХ.ХХХХ" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" FontFamily="Montserrat" FontWeight="SemiBold"  Foreground="#1B3F74" Margin="937,580,0,0"/>
+        <TextBlock Text="Оцінка" VerticalAlignment="Top" Opacity="0.5" HorizontalAlignment="Left" FontSize="20" FontFamily="Montserrat" FontWeight="SemiBold"  Foreground="#1B3F74" Margin="937,612,0,0"/>
+        <TextBlock Text="////////////////////////////////" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" FontFamily="Montserrat" FontWeight="SemiBold"  Foreground="#1B3F74" Margin="937,645,0,0"/>
+        <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\3.png" Margin="1240,627,85,136" RenderTransformOrigin="0.1,0.598" Opacity="0.7" />
+        <TextBlock Text="+1" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" FontFamily="Montserrat" FontWeight="SemiBold"  Foreground="#1B3F74" Margin="1299,640,0,0"/>
+        <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\!4.png" Margin="1321,644,34,141" RenderTransformOrigin="0.1,0.598" />
+
         <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\5!.png" Margin="30,107,1312,659" RenderTransformOrigin="0.1,0.598" />
-        <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\6.png" Margin="32,184,1314,582" RenderTransformOrigin="0.1,0.598" />
+        <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\6.png" MouseLeftButtonDown="Image6_MouseLeftButtonDown" Margin="32,184,1314,582" RenderTransformOrigin="0.1,0.598" />
         <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\7.png" Margin="30,260,1314,502" RenderTransformOrigin="0.1,0.598" />
         <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\8.png" Margin="30,338,1315,429" RenderTransformOrigin="0.1,0.598" />
         <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\9.png" Margin="30,411,1311,354" RenderTransformOrigin="0.1,0.598" />
         <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\10.png" Margin="30,481,1311,280" RenderTransformOrigin="0.1,0.598" />
         <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\11.png" Margin="30,560,1311,203" RenderTransformOrigin="0.1,0.598" />
-        <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\12.png" Margin="32,634,1313,131" RenderTransformOrigin="0.1,0.598" />
+        <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\12.png" MouseLeftButtonDown="Image12_MouseLeftButtonDown" Margin="32,634,1313,131" RenderTransformOrigin="0.1,0.598" />
         <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\13.png" Margin="30,710,1315,53" RenderTransformOrigin="0.1,0.598" />
         <Image Source="C:\Users\Dasha\source\repos\Csharp\wpfexam\Model\14.png" Margin="32,32,1313,731" RenderTransformOrigin="0.1,0.598" />
-
 
     </Grid>
 
